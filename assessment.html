@@ -1,126 +1,143 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Assessment</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>My HTML Assessment Page</title>
-  <link rel='stylesheet' href='assessment.css'>
-</head>
+  <body>
+    <h2>Text</h2>
+    <p><strong>Nullam arcu ex</strong> pellentesque sit amet nibh at, mattis vulputate diam. Morbi tempus blandit urna non sagittis. Maecenas feugiat euismod sem non euismod. Maecenas vel urna at neque euismod dignissim vitae mattis lectus. Sed elementum id sapien mollis congue. Integer elementum, ipsum a consectetur laoreet, felis enim molestie ante, sit amet porta est lorem eu nisi. Duis ullamcorper enim ac nunc scelerisque, pretium convallis ipsum posuere. Maecenas lacus turpis, euismod non neque eu, facilisis finibus diam. Sed finibus elementum tortor, in porttitor augue imperdiet vitae. Sed semper turpis porta dapibus laoreet. Praesent euismod velit ac viverra vehicula. Nulla vel orci enim. Sed id pulvinar augue. Donec nec odio est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque ullamcorper erat nec dictum.</p>
 
-<body>
-  <h2 class="subjectHeader">TEXT</h2>
-  <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, eros sit amet euismod tincidunt, nisl leo vestibulum dui, sed tincidunt lacus ligula eu sapien. Proin at diam tincidunt, tincidunt ex at, venenatis nisl.
-  </p>
-  <blockquote>
-    <em><strong>Integer</strong> auctor est ac fringilla euismod. Donec laoreet urna vel diam blandit venenatis. Nam fermentum turpis a mauris condimentum, vitae faucibus leo commodo.
-  </em>
-  </blockquote>
-  <p><strong>Vestibulum</strong> elit nisi, posuere ut hendrerit a, molestie eu leo. Donec sit amet ullamcorper turpis. Mauris eu tellus blandit turpis fermentum dapibus eget sed ex. Vivamus auctor in velit ac suscipit. In hac habitasse platea dictumst.
-  </p>
+    <p><em><strong>Pellentesque id ex mattis</strong> blandit nibh in, bibendum felis. Pellentesque mattis convallis faucibus. Nulla venenatis ullamcorper sodales. Praesent consectetur, diam ac auctor vulputate, elit leo aliquet mauris, consectetur rutrum justo purus et velit. Nunc feugiat, libero at egestas pharetra, risus nisi tristique velit, at ultrices nisi ex non mauris. Phasellus efficitur massa non ex hendrerit ultricies. Pellentesque non diam ac lectus rutrum semper. Praesent molestie cursus ex nec aliquet. Maecenas varius tempus condimentum. In massa tortor, laoreet nec ipsum ac, accumsan egestas diam. Quisque ipsum sapien, dapibus vel augue at, aliquet interdum lorem. Curabitur efficitur massa a ex interdum, id tincidunt magna laoreet.</em></p>
 
-  <h3 class="subjectHeader">TABLE</h3>
+    <p><strong>Sed</strong> nec hendrerit mauris. Praesent nibh risus, bibendum sed dapibus in, malesuada id lacus. Mauris vulputate id ligula at pellentesque. Cras cursus quam at rhoncus sagittis. Integer justo purus, posuere vel pulvinar at, commodo sit amet risus. Etiam euismod lectus at urna mattis mattis. Nunc sit amet dictum felis, vel gravida erat. Pellentesque tempus odio sit amet molestie mollis. Integer at iaculis metus. Maecenas varius, libero non viverra rutrum, ex est feugiat libero, ultrices congue nulla massa id felis. Phasellus sit amet viverra orci, hendrerit dictum nulla. Donec vulputate varius feugiat. Sed ut enim quis nibh semper faucibus id eget quam. Maecenas sollicitudin fermentum mi. Quisque luctus ipsum nec venenatis posuere. Praesent purus lacus, vulputate sed consequat ac, posuere id turpis.</p>
 
-  <table id="scoreBoard">
-    <caption>Scores by quarter</caption>
-    <thead>
-      <tr>
-        <th rowspan="2">Team Name</th>
-        <th colspan="2">First Half</th>
-        <th colspan="2">Second Half</th>
-        <th rowspan="2">Final</th>
+    <h2>Table</h2>
+    <table>
+      <caption>Scores By Quarter</caption>
+
+
+      <thead>
+        <tr>
+          <th rowspan="2">Team Name</th>
+          <th rowspan="2">First Half</th>
+          <th rowspan="2">Second Half</th>
+          <th rowspan="2">Final</th>
+        </tr>
+      </thead>
+
+      <thead>
+        <tr>
+          <th></th>
+          <th rowspan="1">Q1</th>
+          <th rowspan="1">Q2</th>
+          <th rowspan="1">Q3</th>
+          <th rowspan="1">Q4</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+          <td>Broncos</td>
+          <td>7</td>
+          <td>3</td>
+          <td>0</td>
+          <td>7</td>
+          <td>17</td>
+       </tr>
+       <tr>
+         <td>Bears</td>
+         <td>0</td>
+         <td>6</td>
+         <td>3</td>
+         <td>6</td>
+         <td>15</td>
       </tr>
-      <tr>
-        <th>Q1</th>
-        <th>Q2</th>
-        <th>Q3</th>
-        <th>Q4</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Denver</td>
-        <td>7</td>
-        <td>3</td>
-        <td>0</td>
-        <td>7</td>
-        <td>17</td>
-      </tr>
-      <tr>
-        <td>Chicago</td>
-        <td>0</td>
-        <td>6</td>
-        <td>3</td>
-        <td>6</td>
-        <td>15</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <th>Total</th>
-        <th>7</th>
-        <th>9</th>
-        <th>3</th>
-        <th>13</th>
-        <th>32</th>
-      </tr>
-    </tfoot>
-  </table>
+      </tbody>
 
-  <h4 class="subjectHeader">LIST</h4>
+      <tfoot>
+        <tr>
+          <th>Final</th>
+          <th>7</th>
+          <th>9</th>
+          <th>3</th>
+          <th>13</th>
+          <th>32</th>
+        </tr>
+      </tfoot>
 
-  <ul id="teamRoster">
-    <li><img height="40" src="https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg" alt="Broncos Logo"/>
-      <br>
-      <a class="hyperLink" href="http://www.denverbroncos.com/" target="_blank">Denver Broncos</a>
-      <ul>
-        <li>Coach: Gary Kubiak</li>
-        <li>QB
-          <ol>
-            <li>Peyton Manning</li>
-            <li>Brock Osweiler</li>
-          </ol>
-        </li>
-      </ul>
-    </li>
-    <li><img height="40" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg" alt="Bears Logo"/>
-      <br>
-      <a class="hyperLink" href="http://www.chicagobears.com/" target="_blank">Chicago Bears</a>
-      <ul>
-        <li>Coach: John Fox</li>
-        <li>QB
-          <ol>
-            <li>Jay Cutler</li>
-            <li>David Foles</li>
-          </ol>
-        </li>
-      </ul>
-    </li>
-  </ul>
+    </table>
+    <h2>List</h2>
 
-  <h5 class="subjectHeader">FORM</h5>
+    <ul>
+
+    <li><img src="./Denver_Broncos_logo.svg.png" width="115" height="75" alt="Denver Broncos" ></li>
+    <a href="https://en.wikipedia.org/wiki/Denver_Broncos">Denver Broncos</a>
+
+      <li>Coach: Vic Fangio</li>
+      <li>QB</li>
+        <ol>
+          <li>Charley Johnson</li>
+          <li>Frank Tripucka</li>
+          <li>Craig Morton</li>
+          <li>John Elway</li>
+        </ol>
+
+    </ul>
+
+    <ul>
+
+    <li><img src="./200px-Chicago_Bears_logo.svg.png" width="100" height="75" alt="Chicago Bears" ></li>
+    <a href="https://en.wikipedia.org/wiki/Chicago_Bears">Chicago Bears</a>
+
+      <li>Coach: Matt Naggy</li>
+      <li>QB</li>
+        <ol>
+          <li>Chase Daniel</li>
+          <li>Mitchell Trubisky</li>
+        </ol>
+    </ul>
+
+
+
+  <h2>Form</h2>
 
   <form>
-    <label>First: <input name="fname"></label>
-    <label>Last: <input name="lname"></label><br>
-    <label for="favSport">Favorite Sport:</label>
-    <select id="favSport">
-  <option value="soccer">Soccer</option>
-  <option value="football">Football</option>
-  <option value="baseball">Baseball</option>
-  <option value="polo">Polo</option>
-</select><br> I have:
-    <ul id="checkbox-grid">
-      <li><label><input type="checkbox" name="activity" value="attended"/>Attended</label></li>
-      <li><label><input type="checkbox" name="activity" value="played" />Played</label></li>
-      <li><label><input type="checkbox" name="activity" value="coached" />Coached</label></li>
-      <li><label><input type="checkbox" name="activity" value="wagered" />Bet on</label></li>
-    </ul>
-    this sport.<br> For this sport I prefer the:
-    <label><input type="radio" name="league" value="amateur">Amateur</label>
-    <label><input type="radio" name="league" value="college">College</label>
-    <label><input type="radio" name="league" value="pro">Professional</label><br>
-    <input type="submit">
-  </form>
-</body>
+    <p>
+      First:<input type="text" name="FirstNAme" value="First Name">
+      Last:<input type="text" name="LastName" value="Last Name">
+    </p>
 
+    <p>
+      Favorite Sport:
+      <br>
+      <select>
+        <option value="Soccer">Soccer</option>
+        <option value="Baseball">Baseball</option>
+        <option value="Basketball">Basketball</option>
+        <option value="Hockey">Hockey</option>
+        <option value="Football">Football</option>
+      </select>
+    </p>
+
+    <p>
+      I have:
+      <input type="checkbox" name="action" value="attended">Attended
+      <input type="checkbox" name="action" value="played">Played
+      <input type="checkbox" name="action" value="coached">Coached
+      <input type="checkbox" name="action" value="bet">Bet on this Sport.
+   </p>
+
+   <p>
+     For this sport I prefer the:
+     <input type="radio" name="preference" value="amateur">Amateur
+     <input type="radio" name="preference" value="college">College
+     <input type="radio" name="preference" value="professional">Professional
+     <br>
+     <input type="submit" value="Submit Query">
+  </p>
+
+  </form>
+  </body>
 </html>
